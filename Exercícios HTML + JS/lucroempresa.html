@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <u><h1>Empresa XYZ</h1></u>
+
+        <label for="lucroBruto">Lucro Bruto:</label>
+        <input type="number" name="lucroBruto" id="lucroBruto"/>
+    
+        <h2>Despesas</h2>
+    
+        <label for="qtdFuncionarios">Quantidade Funcionários:</label>
+        <input type="number" name="qtdFuncionarios" id="qtdFuncionarios"/>
+        <br><br>
+        <label for="salario">Salário:</label>
+        <input type="number" name="salario" id="salario"/>
+        <br><br>
+        <label for="contaLuz">Conta Luz:</label>
+        <input type="number" name="contaLuz" id="contaLuz"/>
+        <br><br>
+        <label for="contaAgua">Conta Agua:</label>
+        <input type="number" name="contaAgua" id="contaAgua"/>
+        <br><br>
+        <button onclick="calculaLucro()">Calcular</button>
+        <hr style="width: 70%;">
+        <label for="lucroLiq">Lucro Liquido:</label>
+        <input type="text" name="lucroLiq" id="lucroLiq" readonly/>
+    </center>
+
+    <script src="empresa.js"></script>
+</body>
+</html>

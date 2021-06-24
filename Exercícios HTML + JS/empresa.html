@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="gray">
+    <center>
+
+        <br>
+        <h1><u>MEGABOGA COMPANY</u></h1>
+        <br>
+        <label>Lucro Bruto</label>
+        <input id = "lucroBruto" type = "number" min = "0" placeholder = "R$ 00.00"> </input>
+        <br><br>
+
+        <h2><label>Despesas</label></h2>    
+        
+        <label for = "numFunc">Quantidade de Funcionários</label><br>
+        <input id = "numFunc" type = "number" min = "1" placeholder = "1"> </input>
+        <br><br>
+        <label for = "salario">Gastos com Salários</label><br>
+        <input id = "salario" type = "number" min = "1000 "max = "2000" placeholder = "R$ 00.00"> </input>
+        <br><br>
+        <label for = "luz">Conta de luz</label><br>
+        <input id = "luz" type = "number" min = "50" placeholder = "R$ 00.00"> </input>
+        <br><br>
+        <label for = "agua">Conta de Água</label><br>
+        <input id = "agua" type = "number" min = "50" placeholder="R$ 00.00"> </input>
+        <br><br>
+        <button onclick="CalcularLucro()"> Calcular Lucro Líquido </button>
+        <hr style ="width: 70%"> 
+        <br>
+        <label>Lucro Líquido</label>
+        <input id = "lucroliq" type = "text" name = "lucroLiq" readonly></input>
+
+    </center>
+    <script src = "empresa.js"></script>
+
+</body>
+</html>
