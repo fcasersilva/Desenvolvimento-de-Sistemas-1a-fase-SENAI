@@ -1,0 +1,36 @@
+<!-- O usuario podera inserir no sistema quanto ele recebeu de comissao nos ultimos 3 meses, o patrao como estava animado com as vendas falou que iria dar 10% a mais nas vendas do 1 mes, 12% a mais nas vendas do 2 mes e 13% a mais nas vendas do 3 mes.
+Criar uma funcao onde realiza o calculo de quanto seria o valor de comissao a mais que o patrao ira entregar para o funcionario. A funcao deve receber 2 parametros, o valor da comissao e o % a mais a ser inserido. Essa funcao devera retornar somente o valor a mais a partir do calculo -> comissao * percentual / 100.
+Devera ter uma outra funcao onde ira realizar a soma das comissoes e os beneficios para apresentar ao usuario o valor total de recebimento.
+Os valores da comissao do usuario e da comissao extra, deverao ser impressas na tela para que o usuario possa ver, seus valores individuais e mais o seu valor total, somando as 3 comissoes e os 3 beneficios. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Juros</title>
+</head>
+<body bgcolor="gray">
+<center>
+    <h1>Calculo de Comissão</h1>
+
+    <label for = "mesUm">Comissão 1º mês</label>
+    <br>
+    <input id = "mesUm" type="number" placeholder="R$ 0.00">
+    <br><br>
+    <label for = "mesDois">Comissão 2º mês</label>
+    <br>
+    <input id = "mesDois" type="number" placeholder="R$ 0.00">
+    <br><br>
+    <label for = "mesTres">Comissão 3º mês</label>
+    <br>
+    <input id = "mesTres" type="number" placeholder="R$ 0.00">
+    <br><br>
+    <button onclick = "Calcular ()">Calcular Bônus </button>
+
+
+</center>    
+    <script src = "calculadora-juros.js"></script>
+</body>
+</html>
